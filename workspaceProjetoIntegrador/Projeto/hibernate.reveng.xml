@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.org/dtd/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+  <table-filter match-catalog="PROJETO_INTEGRADOR" match-schema="dbo" match-name="ANEXO"/>
+  <table-filter match-catalog="PROJETO_INTEGRADOR" match-schema="dbo" match-name="CASO_USO"/>
+  <table-filter match-catalog="PROJETO_INTEGRADOR" match-schema="dbo" match-name="FASES"/>
+  <table-filter match-catalog="PROJETO_INTEGRADOR" match-schema="dbo" match-name="PROJETO"/>
+  <table-filter match-catalog="PROJETO_INTEGRADOR" match-schema="dbo" match-name="RELEASE"/>
+  <table-filter match-catalog="PROJETO_INTEGRADOR" match-schema="dbo" match-name="SPRINT"/>
+  <table-filter match-catalog="PROJETO_INTEGRADOR" match-schema="dbo" match-name="TECNOLOGIA"/>
+  <table-filter match-catalog="PROJETO_INTEGRADOR" match-schema="dbo" match-name="TRAMITACAO"/>
+  <table-filter match-catalog="PROJETO_INTEGRADOR" match-schema="dbo" match-name="USUARIO"/>
+</hibernate-reverse-engineering>
