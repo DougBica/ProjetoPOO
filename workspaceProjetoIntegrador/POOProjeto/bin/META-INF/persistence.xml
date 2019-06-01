@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+
+	<persistence-unit name="Projeto" transaction-type="RESOURCE_LOCAL">
+
+		<provider>org.hibernate.ejb.HibernatePersistence</provider>
+		
+		<class>br.com.douglas.POO.entidades.Anexo</class>	
+		<class>br.com.douglas.POO.entidades.AnexoPK</class>
+		<class>br.com.douglas.POO.entidades.CasoUso</class>	
+		<class>br.com.douglas.POO.entidades.CasoUsoPK</class>
+		<class>br.com.douglas.POO.entidades.CasoUsoSprint</class>
+		<class>br.com.douglas.POO.entidades.CasoUsoSprintPK</class>
+		<class>br.com.douglas.POO.entidades.Fase</class>
+		<class>br.com.douglas.POO.entidades.Projeto</class>
+		<class>br.com.douglas.POO.entidades.Release</class>	
+		<class>br.com.douglas.POO.entidades.ReleasePk</class>
+		<class>br.com.douglas.POO.entidades.Sprint</class>	
+		<class>br.com.douglas.POO.entidades.SprintPK</class>
+		<class>br.com.douglas.POO.entidades.Tecnologia</class>
+		<class>br.com.douglas.POO.entidades.Tramitacao</class>
+		<class>br.com.douglas.POO.entidades.Usuario</class>
+		
+		<properties>
+			<property name="hibernate.dialect" value="org.hibernate.dialect.SQLServerDialect"/>
+
+			<property name="javax.persistence.jdbc.driver" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
+			<property name="javax.persistence.jdbc.url" value="jdbc:sqlserver://localhost:1433;databaseName=PROJETO_TESTE;"/>
+			<property name="javax.persistence.jdbc.user" value="sa"/>
+			<property name="javax.persistence.jdbc.password" value="Xu150592"/>
+
+			<property name="hibernate.show_sql" value="true"/>
+			<property name="hibernate.format_sql" value="false"/>
+			<property name="hibernate.hbm2ddl.auto" value="update"/>
+			
+			<property name="hibernate.default_schema" value="dbo"/>
+		</properties>
+	</persistence-unit>
+</persistence>
